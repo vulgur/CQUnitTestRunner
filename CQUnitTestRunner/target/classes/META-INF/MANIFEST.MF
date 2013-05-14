@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: com.adobe.cqunittest;uses:="org.apache.sling.junit.ann
+ otations,org.osgi.framework,org.apache.sling.junit,org.apache.sling.t
+ esting.tools.osgi,org.apache.sling.testing.tools.sling"
+Bundle-ClassPath: .,httpcore-4.1.jar,slf4j-nop-1.6.4.jar,junit-4.8.2.j
+ ar,httpmime-4.1.jar,httpclient-4.1.jar,slf4j-api-1.6.4.jar,classes,co
+ mmons-exec-1.1.jar
+Built-By: shudwang
+Tool: Bnd-1.15.0
+Bundle-Name: CQUnitTestRunner
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_16
+Bundle-Version: 1.5.0.SNAPSHOT
+Bnd-LastModified: 1368511243913
+Bundle-ManifestVersion: 2
+Import-Package: javax.crypto,javax.crypto.spec,javax.net.ssl,javax.sec
+ urity.auth.x500,org.apache.commons.codec.binary;version="[1.4,2)",org
+ .apache.commons.logging,org.apache.sling.commons.json;version="[2.0,3
+ )",org.apache.sling.junit;version="[1.0,2)",org.apache.sling.junit.an
+ notations;version="[1.0,2)",org.apache.sling.testing.tools.http;versi
+ on="[1.0,2)",org.apache.sling.testing.tools.jarexec;version="[1.0,2)"
+ ,org.apache.sling.testing.tools.osgi;version="[1.0,2)",org.apache.sli
+ ng.testing.tools.retry;version="[1.0,2)",org.apache.sling.testing.too
+ ls.serversetup;version="[1.0,2)",org.apache.sling.testing.tools.sling
+ ;version="[1.0,2)",org.ietf.jgss,org.osgi.framework;version="[1.5,2)"
+Embed-Dependency: *;artifactId=!org.apache.sling.junit.core|org.apache
+ .felix.scr.annotations|org.apache.sling.commons.osgi|org.osgi.core|or
+ g.osgi.compendium;
+Bundle-SymbolicName: com.adobe.cqunittest.CQUnitTestRunner
+
